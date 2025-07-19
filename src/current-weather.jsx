@@ -8,7 +8,7 @@ const CurrentWeather = ({ city, }) => {
     const [weatherData, setWeatherData] = useState(null);
     const [unit, setUnit] = useState("metric");
     const apiUrl = "https://api.openweathermap.org/data/2.5/weather";
-    const apiKey = "9d74092694e370aece0b666f6209c330";
+    const apiKey = "";
     useEffect(() => {
         const fetchWeatherData = async () => {
             const cityName = city;
